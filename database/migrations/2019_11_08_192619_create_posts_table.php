@@ -17,9 +17,10 @@ class CreatePostsTable extends Migration
             $table->uuid('id')->primary();
             $table->string("title");
             $table->string("slug");
-            $table->string("excerpt");
-            $table->longText("body");
+            $table->string("excerpt")->nullable();
+            $table->longText("body")->nullable();
             $table->uuid('author_id');
+            $table->string('status')->default('draft');
             $table->timestamps();
 
             $table->foreign("author_id")->references("id")->on("users");

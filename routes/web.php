@@ -12,5 +12,7 @@
 */
 
 Route::get('/', 'PageController@index')->name('home');
+Route::get('/article/{slug}', 'PageController@article')->name('article');
+
 
 Auth::routes(['register' => false]);

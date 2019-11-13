@@ -12,4 +12,6 @@ class BaseModel extends Model
     use Initializable;
     use Uuidable;
     use Publishable;
+
+    public $incrementing = false;
 }
