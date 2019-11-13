@@ -6,7 +6,7 @@
 @include('partials.header')
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('https://source.unsplash.com/random')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

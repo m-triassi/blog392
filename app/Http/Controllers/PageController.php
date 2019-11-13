@@ -23,7 +23,7 @@ class PageController extends Controller
     {
         $post = Post::visible()
             ->where('slug', $slug)
-            ->first();
+            ->firstOrFail();
 
         return view('article')->with(compact(['post']));
 
