@@ -24,5 +24,8 @@ class PageController extends Controller
         $post = Post::visible()
             ->where('slug', $slug)
             ->first();
+
+        return view('article')->with(compact(['post']));
+
     }
 }
