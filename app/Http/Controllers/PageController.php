@@ -12,8 +12,17 @@ class PageController extends Controller
 {
     public function index() {
         $latestPosts = Post::visible()
-            ->latestLimit(4);
+            ->latestLimit(4)
+            ->with("author")
+            ->get();
 
         return view('index')->with(compact('latestPosts'));
+    }
+
+    public function article($slug)
+    {
+        $post = Post::visible()
+            ->where('slug', $slug)
+            ->first();
     }
 }

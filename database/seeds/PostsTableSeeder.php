@@ -22,7 +22,9 @@ class PostsTableSeeder extends Seeder
                 'excerpt' => substr($loremIpsum, 0, 25),
                 'body' => $loremIpsum,
                 'status' => 'published',
-                'author_id' => $author->id
+                'author_id' => $author->id,
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now(),
             ]);
         }
     }
