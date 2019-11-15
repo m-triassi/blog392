@@ -15,7 +15,21 @@
                     @endif
 
                     You are logged in!
+
+                    Submit an  article below!
                 </div>
+            </div>
+            <div style="text-align: center; padding-top: 30px">
+                <form action="/submit/article" method="POST" style="display: inline-block">
+                    @csrf
+                    <label for="title">Title</label>
+                    <input type="text" name="title">
+                    <br><br>
+                    <label for="body">Body</label>
+                    <textarea name="body"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>

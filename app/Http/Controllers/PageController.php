@@ -26,6 +26,14 @@ class PageController extends Controller
             ->firstOrFail();
 
         return view('article')->with(compact(['post']));
+    }
 
+    public function about() {
+        return view('about');
+    }
+
+    public function dashboard()
+    {
+        return view('home');
     }
 }
