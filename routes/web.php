@@ -14,6 +14,7 @@
 Route::get('/', 'PageController@index')->name('home');
 Route::get('/article/{slug}', 'PageController@article')->name('article');
 Route::get('/about', 'PageController@about')->name('about');
+Route::get('/contact', 'PageController@contact')->name('contact');
 Route::get('/home', 'PageController@dashboard')->name('dashboard');
 Route::post('/submit/article', 'ArticleController@submit')->middleware('auth')->name('submit');
 
