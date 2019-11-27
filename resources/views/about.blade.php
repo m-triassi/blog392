@@ -25,9 +25,9 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <p>This blog aims to inform the public about the terror of wage stagnation. If you'd like to know more about this issue, read <a href="#">this post</a> about the issue at hand</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            <p>This blog aims to inform the public about the terror of wage stagnation. If you'd like to know more about this issue, read <a href="#">this post</a> about the issue at hand.</p>
+            <p>In short, pay scaling hasn't kept up with inflation. This puts every generation, current and future at a disadvantage. If this issue isn't fixed soon, it could spell catastrophe.</p>
+            <p>This blog aims to bring this issue to the attention of the broader public. It also explores potential solutions to this growing issue.</p>
         </div>
     </div>
 </div>
