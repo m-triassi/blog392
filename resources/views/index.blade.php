@@ -13,7 +13,7 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
                         <h1>Wage Theory</h1>
-                        <span class="subheading">A Blog that helped end wage stagnation</span>
+                        <span class="subheading">A blog that helped end wage stagnation</span>
                     </div>
                 </div>
             </div>
