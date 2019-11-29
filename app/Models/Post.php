@@ -15,7 +15,7 @@ class Post extends Model
 
     public function scopeLatestLimit(Builder $q, $limit)
     {
-        $q->orderBy('updated_at')
+        $q->orderBy('updated_at', 'desc')
             ->limit($limit);
     }
 }
